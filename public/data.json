@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Derek Hawkins",
+        "age": 32,
+        "location": "Dallas",
+        "occupation": "Software Engineer",
+        "skills": [
+            {
+                "HTML": 10
+            },
+            {
+                "CSS": 10
+            },
+            {
+                "Python": 10
+            },
+            {
+                "JavaScript": 9
+            },
+            {
+                "Software Development": 9
+            },
+            {
+                "Web Design": 3
+            }
+        ]
+    },
+    {
+        "name": "Tomas Lopez-Betanzos",
+        "age": 35,
+        "location": "Chicago",
+        "occupation": "Data Engineer",
+        "skills": [
+            {
+                "HTML": 8
+            },
+            {
+                "CSS": 8
+            },
+            {
+                "Python": 4
+            },
+            {
+                "JavaScript": 3
+            }
+        ]
+    },
+    {
+        "name": "Nisarg Patel",
+        "age": "22",
+        "location": "Methuen",
+        "occupation": "Machine Learning Engineer",
+        "skills": [
+            {
+                "HTML": 5
+            },
+            {
+                "CSS": 2
+            },
+            {
+                "Python": 8
+            },
+            {
+                "javascript": 7
+            },
+            {
+                "SQL": 0
+            }
+        ]
+    },
+    {
+        "name": "Guido van den Heuvel",
+        "age": 26,
+        "location": "Boston",
+        "occupation": "Business Analyst",
+        "skills": [
+            {
+                "HTML": 3
+            },
+            {
+                "CSS": 3
+            },
+            {
+                "Python": 4
+            },
+            {
+                "JavaScript": 1
+            },
+            {
+                "Web Design": 7
+            }
+        ]
+    },
+    {
+        "name": "Sam Davitt",
+        "age": 32,
+        "location": "Boston",
+        "occupation": "Software Engineer",
+        "skills": [
+            {
+                "HTML": 7
+            },
+            {
+                "CSS": 7
+            },
+            {
+                "Python": 9
+            },
+            {
+                "Javascript": 4
+            },
+            {
+                "Software Development": 6
+            },
+            {
+                "Web Design": 3
+            }
+        ]
+    },
+    {
+        "name": "Jerry Mathew",
+        "age": 29,
+        "location": "Chicago",
+        "occupation": "Software Engineer",
+        "skills": [
+            {
+                "HTML": 4
+            },
+            {
+                "CSS": 4
+            },
+            {
+                "Python": 2
+            },
+            {
+                "Javascript": 2
+            }
+        ]
+    },
+    {
+        "name": " Wesley Young ",
+        "age": 29,
+        "location": " Boston",
+        "occupation": "Software Developer",
+        "skills": [
+            {
+                "HTML": 4
+            },
+            {
+                "CSS": 4
+            },
+            {
+                "Python": 4
+            },
+            {
+                "Javascript": 4
+            }
+        ]
+    },
+    {
+        "name": "Josh Woodard",
+        "age": 37,
+        "location": "Chicago",
+        "occupation": "Data Engineer",
+        "skills": [
+            {
+                "HTML": 3
+            },
+            {
+                "Css": 3
+            },
+            {
+                "Python": 5
+            },
+            {
+                "Javascript": 2
+            },
+            {
+                "Data Engineer": 4
+            },
+            {
+                "Bartender": 9
+            }
+        ]
+    }
+]
