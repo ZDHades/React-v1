@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-import Information from './information'
 
 export default class Employee extends Component {
-    // handleClick = (emp) => {
-
-    // }
     render() {
-        const emp = this.props.emp
+        const emp = this.props.emp;
+        const handleSelectEmployee = this.props.handleSelectEmployee;
         return (
-            <li onClick={() => <Information emp={emp}/> }className="list-group-item">{emp.name}</li>
+            <li onClick={() => handleSelectEmployee(emp)}className="list-group-item">{emp.name}</li>
         )
     }
 }

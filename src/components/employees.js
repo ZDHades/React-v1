@@ -9,7 +9,7 @@ export default class Employees extends Component {
                 <div className="card-header">Employee</div>
 
                 <ul id="employees" className="list-group list-group-flush">
-                    {employees.map((emp, index) => (<Employee emp={emp} key={index}/>) )}
+                    {employees.map((emp, index) => (<Employee emp={emp} key={index} handleSelectEmployee={this.props.handleSelectEmployee}/>) )}
                 </ul>
             </div>
         )

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Employees from '../components/employees';
-import Employee from '../components/employees';
+import InformationList from '../components/informationlist';
+import SkillsList from '../components/skillslist';
 
 export default class Main extends Component {
     render() {
@@ -8,21 +9,16 @@ export default class Main extends Component {
             <div className="row">
                 <div className="card-deck">
                     <div id="employees-container" className="card" style={{ width: "400px" }}>
-                        <Employees employees={this.props.employees} />
+                        <Employees employees={this.props.employees} handleSelectEmployee={this.props.handleSelectEmployee} />
                     </div>
                     <div id="information-container" className="card" style={{ width: "400px" }}>
-                       
+                        <InformationList employeeInformation={this.props.employeeInformation}/>
                     </div>
                     <div id="skills-container" className="card" style={{ width: "400px" }}>
-                        <div className="card-header">
-                            Skills
-                        </div>
-                        <ul id="skills" className="list-group list-group-flush">
-                        </ul>
+                        <SkillsList employeeInformation={this.props.employeeInformation}/>
                     </div>
                 </div>
             </div>
-
         )
     }
 }

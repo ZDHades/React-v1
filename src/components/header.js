@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import '../custom.css'
 
 export default class Header extends Component {
     render() {
+        let cart = this.props.cart
+        let getTotal = this.props.getTotal
+        let total = getTotal(cart)
         return (
             <header>
                 <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -18,6 +22,15 @@ export default class Header extends Component {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/something">Something</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/blog">Blog</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/marketplace">MarketPlace</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/cart">Cart<span style={{ marginRight: '5px' }}><i style={{marginRight: '5px'}} className="fa fa-shopping-cart"></i><span className="badge badge-light">Total: {total}|{cart.length}</span></span></Link>
                             </li>
                         </ul>
                     </div>
